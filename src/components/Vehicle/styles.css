@@ -1,0 +1,52 @@
+.vehicle {
+    border-bottom: 1px black solid;
+  
+
+    min-width: 100px;
+    width: 680px;
+    display: flex;
+    align-items: center;
+    
+}
+.vehicle-fields{
+    min-width: 100px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.vehicle-button{
+    color: white;
+    width: 80px;
+    margin: 5px;
+    padding: 5px;
+    border: 1px rgb(56, 56, 56) solid;
+    background-color: rgb(0, 172, 166);
+    transition: 0.2s;
+}
+.vehicle-button:hover{
+    background-color: rgb(0, 219, 212);
+}
+.delete{
+    background-color: rgb(77, 77, 77);
+}
+.delete:hover{
+    background-color: red;
+}
+.input {
+    border: none;
+    background-color: white;
+    width: 80px;
+    margin: 0 10px;
+    text-align: center;
+    padding: 0;
+    border-bottom: 0.5px gray solid;
+}
+.vehicle-year{
+    width: 100px;
+}
+.vehicle-color{
+    width: 100px;
+}
+.errorInput{
+    border-bottom: 0.5px rgb(255, 0, 0) solid;
+}
